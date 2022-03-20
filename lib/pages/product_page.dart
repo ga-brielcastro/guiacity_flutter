@@ -5,6 +5,20 @@ class ProductPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Column(
+        children: [
+          Container(
+            height: 300,
+            color: Colors.amber,
+          ),
+
+          Container(
+            height: 500,
+            color: Colors.redAccent,
+          )
+        ],
+      ),
+    );
   }
 }

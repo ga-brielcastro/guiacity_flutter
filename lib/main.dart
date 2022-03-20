@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:guia_city/pages/home_page.dart';
+import 'package:guia_city/pages/homepage.dart';
+import 'package:guia_city/pages/product_page.dart';
+// import 'package:guia_city/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +26,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: HomePage(),
+      body: ProductPage(),
     );
   }
 }
